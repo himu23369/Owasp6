@@ -1,0 +1,94 @@
+/* Reset default browser styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Global styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #f8f9fa; /* Light gray background */
+    color: #333; /* Dark gray text color */
+    background: linear-gradient(68.08deg, #9083D5 9.64%, #807593 92.49%);
+}
+
+/* Container styles */
+.container_form {
+    max-width: 40vw; /* Maximum width of the container */
+    margin: 0 auto; 
+    padding: 11%; 
+    border: 1px solid #ced4da; /* Light gray border */
+    border-radius: 5px; /* Rounded corners */
+    background-color: #fff; /* White background */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Light shadow */
+    /* max-height: 100vh; */
+}
+
+
+/* Form control styles */
+.form-control {
+    width: 100%; /* Take up full width */
+    padding: 10px; /* Add padding inside input fields */
+    margin-bottom: 15px; /* Add space between input fields */
+    border: 1px solid #ced4da; /* Light gray border */
+    border-radius: 5px; /* Rounded corners */
+    transition: border-color 0.3s; /* Smooth transition for border color */
+}
+
+/* Focus state for form controls */
+.form-control:focus {
+    outline: none; /* Remove default focus outline */
+    border-color: #80bdff; /* Blue border color on focus */
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25); /* Blue box shadow on focus */
+}
+
+/* Primary button styles */
+.btn-primary {
+    background-color: #007bff; /* Blue background color */
+    color: #fff; /* White text color */
+    padding: 10px 20px; /* Padding inside the button */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Cursor style */
+    transition: background-color 0.3s; /* Smooth transition for background color */
+}
+
+/* Hover state for primary button */
+.btn-primary:hover {
+    background-color: #0056b3; /* Darker blue background color on hover */
+}
+
+/* Flexbox styles for rows and columns */
+.row {
+    display: flex; /* Use flexbox for layout */
+    flex-wrap: wrap; /* Wrap items to next line if needed */
+    margin: 0 -15px; /* Negative margin to offset column padding */
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+
+.col {
+    flex: 1; /* Equal width columns */
+    padding: 0 15px; /* Add horizontal padding */
+}
+
+/* Margin utility classes */
+.my-2 {
+    margin-top: 5px; /* Top margin */
+    margin-bottom: 10px; /* Bottom margin */
+}
+
+.my-5 {
+    margin-top: 25vh; /* Top margin */
+    margin-bottom: 20vh; /* Bottom margin */
+}
+
+.bp{
+    padding: 2%;
+}
+
+.hr{
+    padding: 2%;
+}

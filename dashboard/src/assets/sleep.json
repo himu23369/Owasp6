@@ -1,0 +1,30 @@
+[
+    {
+        "name": "Day 1",
+        "sleep": 7
+    },
+    {
+        "name": "Day 2",
+        "sleep": 6
+    },
+    {
+        "name": "Day 3",
+        "sleep": 8
+    },
+    {
+        "name": "Day 4",
+        "sleep": 7.5
+    },
+    {
+        "name": "Day 5",
+        "sleep": 6.5
+    },
+    {
+        "name": "Day 6",
+        "sleep": 8.5
+    },
+    {
+        "name": "Day 7",
+        "sleep": 9
+    }
+]

@@ -1,0 +1,44 @@
+[
+    {
+        "name": "Day 1",
+        "Happy": 10,
+        "Energetic": 6,
+        "Anxiety": 2
+    },
+    {
+        "name": "Day 2",
+        "Happy": 8,
+        "Energetic": 7,
+        "Anxiety": 3
+    },
+    {
+        "name": "Day 3",
+        "Happy": 9,
+        "Energetic": 5,
+        "Anxiety": 1
+    },
+    {
+        "name": "Day 4",
+        "Happy": 7,
+        "Energetic": 8,
+        "Anxiety": 4
+    },
+    {
+        "name": "Day 5",
+        "Happy": 6,
+        "Energetic": 9,
+        "Anxiety": 5
+    },
+    {
+        "name": "Day 6",
+        "Happy": 5,
+        "Energetic": 10,
+        "Anxiety": 6
+    },
+    {
+        "name": "Day 7",
+        "Happy": 4,
+        "Energetic": 4,
+        "Anxiety": 7
+    }
+]

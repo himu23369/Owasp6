@@ -1,0 +1,33 @@
+.alert-data-box {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 40%
+}
+
+.heading {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.fullName, .date {
+    flex: 1;
+    padding: 5px;
+}
+
+.data {
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+}
+
+.data .heading {
+    display: flex;
+    justify-content: space-between;
+}
+
+.alert-data-box > div {
+    margin-bottom: 10px;
+}

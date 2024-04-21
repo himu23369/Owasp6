@@ -1,0 +1,58 @@
+.patientsDataBox {
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border: 1px solid #000000;
+    margin: 2vh;
+    width: 30vw;
+    height: 40vh;
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    background: #FFFFFF;
+    box-shadow: 0px 14px 14px rgba(20, 23, 38, 0.02);
+    border-radius: 16px;
+  
+    /* Normal state styles */
+    transition: transform 0.3s ease;
+  }
+  
+  /* Hover state styles */
+  .patientsDataBox:hover {
+    transform: scale(1.05); /* Increase size on hover */
+    box-shadow: 0px 14px 14px rgba(20, 23, 38, 0.1); /* Adjust shadow on hover */
+  }
+  
+  .patient-data-container {
+    height: calc(100% - 2rem); /* Subtract the top and bottom margins */
+    overflow: auto;
+  }
+  
+  .patient-data {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+  }
+  
+  .patient-data th,
+  .patient-data td {
+    padding: 0.5rem;
+    border-bottom: 1px solid #dddddd;
+  }
+  
+  .patient-data th {
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .patient-data td:first-child {
+    width: 50%;
+    text-align: center;
+    /* font-weight: bold; */
+  }
+  
+  .patient-data td:last-child {
+    text-align: center;
+  }

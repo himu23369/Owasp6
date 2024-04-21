@@ -1,0 +1,37 @@
+[
+    {
+        "name": "Day 1",
+        "systolic": 120,
+        "diastolic": 80
+    },
+    {
+        "name": "Day 2",
+        "systolic": 118,
+        "diastolic": 76
+    },
+    {
+        "name": "Day 3",
+        "systolic": 122,
+        "diastolic": 78
+    },
+    {
+        "name": "Day 4",
+        "systolic": 124,
+        "diastolic": 82
+    },
+    {
+        "name": "Day 5",
+        "systolic": 116,
+        "diastolic": 74
+    },
+    {
+        "name": "Day 6",
+        "systolic": 128,
+        "diastolic": 86
+    },
+    {
+        "name": "Day 7",
+        "systolic": 130,
+        "diastolic": 88
+    }
+]

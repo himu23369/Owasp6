@@ -1,0 +1,44 @@
+[
+    {
+        "name": "Day 1",
+        "Breakfast": 500,
+        "Lunch": 400,
+        "Dinner": 800
+    },
+    {
+        "name": "Day 2",
+        "Breakfast": 450,
+        "Lunch": 420,
+        "Dinner": 780
+    },
+    {
+        "name": "Day 3",
+        "Breakfast": 480,
+        "Lunch": 380,
+        "Dinner": 820
+    },
+    {
+        "name": "Day 4",
+        "Breakfast": 510,
+        "Lunch": 430,
+        "Dinner": 790
+    },
+    {
+        "name": "Day 5",
+        "Breakfast": 490,
+        "Lunch": 410,
+        "Dinner": 1810
+    },
+    {
+        "name": "Day 6",
+        "Breakfast": 520,
+        "Lunch": 390,
+        "Dinner": 830
+    },
+    {
+        "name": "Day 7",
+        "Breakfast": 530,
+        "Lunch": 370,
+        "Dinner": 840
+    }
+]

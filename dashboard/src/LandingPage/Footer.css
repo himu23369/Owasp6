@@ -1,0 +1,84 @@
+.FooterBody {
+    margin-top: 25px;
+
+    & hr {
+        width: 80%;
+    }
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    margin: 0px auto;
+    margin-top: 50px;
+    width: 90%;
+    height: 25vh;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    & .logoName {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    & .quickLinks {
+        display: flex;
+        flex-direction: column;
+
+        & .linkTable {
+            display: flex;
+            flex-direction: column;
+
+            & .link {
+                color: gray;
+            }
+        }
+
+    }
+
+    & .hours {
+        width: 13%;
+
+        & .timeTable {
+            display: flex;
+            flex-direction: row;
+            color: grey;
+            justify-content: space-between;
+
+            & .days {
+                display: flex;
+                flex-direction: column;
+            }
+
+            & .time {
+                display: flex;
+                flex-direction: column;
+            }
+        }
+    }
+
+    & .contact {
+        width: 17%;
+
+        & .contactBox {
+            display: flex;
+            flex-direction: row;
+
+            & .icons {
+                display: flex;
+                flex-direction: column;
+
+                & .information {
+                    display: flex;
+                    flex-direction: row;
+                }
+            }
+
+            & .information {
+                display: flex;
+                flex-direction: column;
+            }
+        }
+    }
+}

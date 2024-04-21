@@ -1,0 +1,40 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "C:\\Users\\samar\\Desktop\\Programming\\hackwithindia\\acehack\\dashboard\\contracts\\MedicalRecords.sol": {
+      "lastModificationDate": 1713658267376,
+      "contentHash": "814da41ec6fc270a42b9ef673e8e121a",
+      "sourceName": "contracts/MedicalRecords.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "MedicalRecords"
+      ]
+    }
+  }
+}

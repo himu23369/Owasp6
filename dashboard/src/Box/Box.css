@@ -1,0 +1,28 @@
+
+
+.info-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f2f2f2;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    height: 138px;
+    width: 500px;
+}
+
+.info-item .left {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.info-item .right {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.info-item span {
+    font-size: 20px;
+}

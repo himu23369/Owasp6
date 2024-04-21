@@ -1,0 +1,77 @@
+/* ImageUploadForm.css */
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #2b3a42;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+  }
+  
+  form div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1rem;
+    width: 50%;
+  }
+  
+  form label {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #2b3a42;
+    margin-bottom: 0.5rem;
+  }
+  
+  form input[type="file"] {
+    border: none;
+    border-radius: 0.25rem;
+    background-color: #fff;
+    padding: 0.5rem;
+    width: 100%;
+    cursor: pointer;
+  }
+  
+  form input[type="text"] {
+    border: none;
+    border-radius: 0.25rem;
+    background-color: #fff;
+    padding: 0.5rem;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  form button[type="submit"] {
+    display: block;
+    margin: 0 auto;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 0.25rem;
+    background-color: #2b3a42;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  form button[type="submit"]:hover {
+    background-color: #1a202c;
+  }
